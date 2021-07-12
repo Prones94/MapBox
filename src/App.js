@@ -11,6 +11,7 @@ export default function App() {
     longitude: -122.45,
     zoom: 14
   });
+  console.log(viewport);
 
   const goToNYC = () => {
     setViewport({
