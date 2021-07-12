@@ -25,10 +25,28 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <!-- <div id="map" style="width: 400px; height: 300px"></div>
+      <script>
+        mapboxgl.accessToken =
+          "pk.eyJ1IjoiaXJvbmVzOTQiLCJhIjoiY2txenprY2YzMW4yaDJ2bGZrb3ozbXRzMSJ9.DaLs0HwX916WhZ0f3Z9VKw";
+        var map = new mapboxgl.Map({
+          container: "map", // container ID
+          style: "mapbox://styles/mapbox/streets-v11", // style URL
+          center: [-74.5, 40], // starting position [lng, lat]
+          zoom: 9, // starting zoom
+        });
+      </script> -->
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
